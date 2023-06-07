@@ -1,0 +1,129 @@
+:root{
+    --color_01: #ff4314;
+    --color_02: #ffffff;
+    --c_black: #0e0e0e;
+}
+
+body{
+    background-image: url("../img/background-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+
+.fundo{
+    background-image: url("../img/background-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    width: 100px;
+}
+
+.home-img{
+    height: 250px;
+    width: 800px;
+}
+
+table{
+    background-color: var(--c_black);
+    margin: auto;
+    width: 800px;
+    
+}
+
+table li, p, h2, h3, h1 {
+    color: #ffffff;
+}
+
+#nav_box{
+    border-top: 8px solid var(--color_01);
+    background-color: var(--c_black);
+    
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+}
+
+#nav_box ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav_box li{
+    float: left;
+}
+
+#nav_box a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+.ativo{
+    background-color: var(--color_01);
+    color: var(--color_02);
+}
+
+#nav_box a:hover:not(.ativo){
+    background-color: var(--color_01);
+    color: var(--color_02);
+    transition: 0.5s;
+}
+
+#img_box{
+    width: 450px;
+}
+
+#img_box img{
+    width: 100%;
+}
+
+.article_box{
+    padding: 10px;
+}
+
+.article_box p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.article_box h2{
+    border-top: 8px solid var(--color_01);
+    background-color: var(--c_gray);
+    padding: 10px;
+}
+
+.imagem-meninos{
+    height: 280px;
+    width: 500px;
+    margin-top: 60px;
+    margin-left: 3px;
+}
+
+.imagem-will{
+    
+    width: 200px;
+    height: 200px;
+}
+
+
+.article_box-personagens{
+    text-align: center;
+}
+
+.escola{
+    width: 800px;
+}
+
+
+#footer_box{
+    border-top: 8px solid var(--color_01);
+    background-color: var(--c_gray);
+    text-align: center;
+    height: 50px;
+}
